@@ -1,10 +1,10 @@
 let italiano = "Italiani";
 let noitaliano = "Italiano";
 
-function busqueda(apellido){
-  if(apellido.charAt(apellido.length-1) === "i"){
+function busqueda(apellido) {
+  if (apellido.charAt(apellido.length - 1) === "i") {
     console.log("Este apellido podria ser italiano");
-  }else{
+  } else {
     console.log("Este apellido podria no ser italiano");
   }
 }
