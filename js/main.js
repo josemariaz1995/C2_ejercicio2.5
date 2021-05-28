@@ -1,5 +1,5 @@
-let italiano = "Italiani";
-let noitaliano = "Italiano";
+const italiano = "Italiani";
+const noitaliano = "Italiano";
 
 function busqueda(apellido) {
   if (apellido.charAt(apellido.length - 1) === "i") {
